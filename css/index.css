@@ -1,0 +1,748 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-family: "微软雅黑";
+    text-decoration: none;             /* 去掉a标签的下划线 */
+    list-style: none;
+}
+/* 头部开始 */
+.head{
+	width: 100%;
+	height: 32px;
+	background: #f7f7f7;
+	border-bottom: 1px solid #cccccc;
+}
+.head-main{
+	width: 1200px;
+	height: 100%;
+	background: #f7f7f7;
+	margin: 0 auto;
+}
+.head-right{
+	width: 429px;
+	height: 100%;
+	float: right;
+	font-size: 12px;
+	color: #808080;
+	line-height: 32px;
+}
+.head-right1{
+	width: 130px;
+	height: 100%;
+	float: left;
+	margin-right: 20px;
+}
+.head-right2{
+	width: 77px;
+	height: 100%;
+	float: left;
+	margin-right: 11px;
+}
+.login{
+    color: #808080;
+    margin-right: 10px;
+}
+.head-right2 span{
+	margin-right: 8px;
+}
+.reg{
+	color: #808080;
+	float: right;
+}
+.head-right3{
+	width: 48px;
+	height: 100%;
+	float: left;
+	margin-right: 16px;
+}
+.head-right3 a, .head-right4 .gonggao{
+	color: #808080; 
+}
+.head-right3 a:hover, .head-right4 .gonggao:hover{
+	color: #a10000;
+}
+
+.head-right4{
+	width: 72px;
+	height: 32px;
+	float: left;
+	margin-right: 13px;
+}
+.alaba{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.ilaba{
+    width: 16px;
+    height: 15px;
+    margin-top: 8px;
+	margin-right: 8px;
+	float: left;
+}
+.gonggao{
+    color: #808080; 
+}
+.head-right5{
+	width: 40px;
+	height: 100%;
+	float: right;
+	margin-top: 7px;
+	margin-right: 2px;
+	/* background: pink url('../img/w1.jpg') no-repeat top 30% left ;
+	background-size: 18px 18px; */
+}
+.aw1{
+	display: block;
+	width: 18px;
+	height: 18px;
+	background: url('../img/w1.jpg') no-repeat center left;
+	float: left;
+}
+.aw2{
+	display: block;
+	width: 18px;
+	height: 18px;
+	float: right;
+	background: url('../img/w2.jpg') no-repeat center right;
+}
+
+/* 头部结束 */
+/* 搜索开始 */
+.nav-box{
+	width: 1200px;
+	height: 60px;
+/* 	background: red; */
+	margin: 0 auto;
+	padding-top: 28px;
+}
+.search-box{
+	width: 100%;
+    height: 29px;
+/*     background: green; */
+}
+.search{
+	width: 438px;
+	height: 100%;
+	float: right;
+}
+.search-left{
+	width: 309px;
+	height: 100%;
+	float: left;
+
+}
+.search-left1{
+	width: 253px;
+	height: 27px;
+	border: 1px solid #c9caca;
+	float: left;
+	padding-left: 5px;
+}
+.search-left1 span{
+	font-size: 12px;
+	color: #000;
+	text-align: center;
+	line-height: 28px;
+}
+.search-left2 a{
+	display: block;
+	width: 49px;
+	height: 29px;
+	float: right;
+    background: url('../img/vanclsprite.png') no-repeat -99px 0;
+}
+.search-right{
+	width: 107px;
+	height: 100%;
+	float: right;
+}
+.search-right a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	font-size: 12px;
+	color: #fff;
+	line-height: 29px;
+	background: url('../img/vanclsprite.png') no-repeat -153px 0;
+}
+.search-right span{
+	margin-left: 30px;
+	line-height: 29px;
+}
+.nav1{
+	width: 1200px;
+	height: 28px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #808080;
+}
+.nav1-right{
+	width: 419px;
+	height: 100%;
+	float: right;
+}
+.nav1-right a,.nav1-right span{
+	color: #808080;
+	line-height: 28px;
+	margin-right: 6px;
+}
+/* 搜索结束 */
+/* 导航开始 */
+.big-nav{
+	width: 1200px;
+	height: 47px;
+	margin: 0 auto 23px;
+}
+.logo a{
+	display: block;
+	width: 166px;
+	height: 47px;
+	background: url('../img/vanclsprite.png') no-repeat 0 -59px;
+	float: left;
+}
+/* .nav{
+	width: 990px;
+	height: 100%;
+	float: right;
+} */
+.nav{
+    width: 990px;
+	height: 100%;
+	float: left;
+	margin-top: 23px;
+}
+.nav li{
+	width: 98px;
+	height: 16px;
+	text-align: center;
+	line-height: 16px;
+	border-right: 1px solid #808080;
+	font-size: 14px;
+	float: left;
+/* 	margin-top: 20px; */
+}
+.nav li a{
+	color: #a8a895;
+}
+.nav li a:hover{
+	color: #a10000;
+}
+.nav .last{
+	border-right: none;
+}
+/* 导航结束 */
+/* banner开始 */
+.banner{
+	width: 1200px;
+	height: 535px;
+	background: red;
+	margin: 0 auto;
+	position: relative;
+}
+.img-list{
+	width: 1200px;
+	height: 535px;
+	background: yellow;
+	position: relative;
+}
+.img-list a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.img-list li{
+	width: 1200px;
+	height: 535px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.banner-left a, .banner-right a{
+    width: 20px;
+    height: 54px;
+    position: absolute;
+    top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+
+}
+.banner-left a{
+	background: url('../img/focus_lr0918.png') no-repeat -3px -5px;
+    left: 12px;
+}
+.banner-left a:hover{
+	background: url('../img/focus_lr0918.png') no-repeat -3px -66px;
+}
+.banner-right a{
+	background: url('../img/focus_lr0918.png') no-repeat -59px -5px;
+    right: 12px;
+}
+.banner-right a:hover{
+	background: url('../img/focus_lr0918.png') no-repeat -59px -66px;
+}
+.btn-list{
+	width: 112px;
+	height: 12px;	
+	position: absolute;
+	bottom: 23px;
+	left: 0px;
+	right: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.btn-list li a{
+	width: 12px;
+	height: 12px;
+	background: #dddddd;
+	float: left;
+	margin-right: 8px;
+	border-radius: 50%;
+}
+.btn-list li a:hover{
+	background: #a10000;
+}
+.btn-list .btn-last a{
+	 margin-right: 0;
+}
+.btn-list li a .btn-last a:hover{
+	 margin-right: 0;
+}
+/* banner结束 */
+/* 春季新品开始 */
+.xinpin{
+	width: 106px;
+	height: 17px;
+	margin: 0 auto;
+	font-size: 17px;
+	color: #9a9a9a;
+    padding: 68px 547px 45px;
+}
+.zhong{
+	width: 1200px;
+/* 	height: 600px; */
+	margin: 0 auto;
+	overflow: hidden;
+}
+.zhong1{
+	width: 390px;
+	height: 100%;
+	float: left;
+	margin-right: 15px;
+}
+.z-a1{
+	display: block;
+	width: 100%;
+	height: 100%
+}
+.z-i1{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.zhong2{
+	width: 390px;
+	height: 100%;
+	float: left;
+	margin-right: 15px;
+}
+.zhong3{
+	width: 390px;
+	height: 100%;
+	float: right;
+}
+/* 春季新品结束 */
+/* 韩国购开始 */
+.xinpin1{
+	width: 123px;
+	height: 17px;
+	margin: 0 auto;
+	font-size: 17px;
+	color: #9a9a9a;
+    padding: 64px 542px 45px;
+}
+.xinpin2{
+	width: 123px;
+	height: 17px;
+	margin: 0 auto;
+	font-size: 17px;
+	color: #9a9a9a;
+    padding: 49px 535px 45px;
+}
+.shop{
+	width: 1200px;
+	height: 509px;
+/* 	background: red; */
+	margin: 0 auto;
+}
+.shop-left{
+	width: 590px;
+	height: 509px;
+	float: left;
+	margin-right: 17px;
+}
+.left-top{
+	width: 100%;
+	height: 440px;
+}
+.a1{
+	display: block;
+	width: 100%;
+	height: 440px;
+}
+.img1{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.left-bottom{
+	width: 564px;
+	height: 39px;
+	background: #fff;
+	border: 1px solid #e8e7ec;
+	border-top: none;
+	padding: 29px 12px 0;
+}
+.bottom-left{
+	width: 117px;
+	height: 100%;
+	float: left;
+	font-size: 14px;
+	color: #333333;
+}
+.bottom-right{
+	width: 60px;
+	height: 100%;
+	float: right;
+	font-size: 14px;
+	color: #ab0000;
+}
+.shop-center{
+	width: 290px;
+	height: 509px;
+/* 	background: blue; */
+	float: left;
+	margin-right: 17px;
+}
+.center-top{
+	width: 290px;
+	height: 249px;
+	margin-bottom: 11px;
+}
+.center-top-top{
+	width: 100%;
+	height: 180px;
+	background: red;
+}
+.a2{
+	display: block;
+	width: 100%;
+	height: 180px;
+}
+.img2{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.center-top-bottom{
+	width: 264px;
+	height: 39px;
+	border: 1px solid #e8e7ec;
+	border-top: none;
+	font-size: 14px;
+	padding: 29px 12px 0;
+}
+.c-t-b-left{
+	width: 162px;
+	height: 100%;
+	color: #333333;
+	float: left;
+}
+.c-t-b-right{
+	width: 53px;
+	height: 100%;
+	color: #ab0000;
+	float: right;
+}
+.center-bottom{
+	width: 290px;
+	height: 249px;
+}
+.center-bottom-top{
+	width: 100%;
+	height: 180px;
+	background: red;
+}
+.a2{
+	display: block;
+	width: 100%;
+	height: 180px;
+}
+.img2{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.center-bottom-bottom{
+	width: 264px;
+	height: 39px;
+	border: 1px solid #e8e7ec;
+	border-top: none;
+	font-size: 14px;
+	padding: 29px 12px 0;
+}
+.c-b-b-left{
+	width: 162px;
+	height: 100%;
+	color: #333333;
+	float: left;
+}
+.c-b-b-right{
+	width: 53px;
+	height: 100%;
+	color: #ab0000;
+	float: right;
+}
+.a2{
+	display: block;
+	width: 100%;
+	height: 180px;
+}
+.img2{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.shop-right{
+	width: 286px;
+	height: 509px;
+	float: right;
+}
+.right-top{
+	width: 100%;
+	height: 440px;
+}
+.a1{
+	display: block;
+	width: 100%;
+	height: 440px;
+}
+.img1{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.right-bottom{
+	width: 260px;
+	height: 39px;
+	background: #fff;
+	border: 1px solid #e8e7ec;
+	border-top: none;
+	padding: 29px 12px 0;
+}
+.r-bottom-left{
+	width: 197px;
+	height: 100%;
+	float: left;
+	font-size: 14px;
+	color: #333333;
+}
+.r-bottom-right{
+	width: 44px;
+	height: 100%;
+	float: right;
+	font-size: 14px;
+	color: #ab0000;
+}
+/* 韩国购结束 */
+/* 1198 282 */
+/* 服务开始 */
+.serve{
+	width: 1198px;
+	height: 249px;
+	margin: 48px auto 25px;
+	border: 1px solid #e0e0e1;
+	padding-top: 33px;
+}
+.serve-top{
+	width: 1112px;
+	height: 138px;
+	margin: 0 auto;
+}
+.serve-one, .serve-two, .serve-three{
+	width: 370px;
+	height: 100%;
+	border-right: 1px solid #e0e0e1;
+	float: left;
+}
+.serve-one .one-top{
+	display: block;
+	width: 37px;
+	height: 40px;
+	background: url('../img/onlinecustomer.png') no-repeat;
+	margin: 15px 164px 0 164px ;
+}
+.serve-one .one-bottom{
+	display: block;
+	width: 156px;
+	height: 32px;
+	background: #b81c22;
+	margin: 32px auto 0;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	line-height: 32px;
+}
+.serve-two .two-top{
+	display: block;
+	width: 38px;
+	height: 38px;
+	background: url('../img/seven.png') no-repeat;
+	border-radius: 50%;
+	margin: 20px 164px 0 164px ;
+}
+.serve-two .two-bottom{
+	width: 123px;
+	height: 38px;
+	display: block;
+	margin: 22px auto 0;
+	font-size: 12px;
+	color: #727171;
+	text-align: center;
+	line-height:23px;
+}
+.serve-three .three-top{
+	display: block;
+	width: 98px;
+	height: 98px;
+	background: url('../img/2014_8_29_16_39_33_7709.jpg') no-repeat;
+	background-size: 98px 98px;
+	margin: 0px 164px 0 164px ;
+}
+.serve-three .three-bottom{
+	width: 127px;
+	height: 12px;
+	display: block;
+	margin: 20px 150px 0;
+	font-size: 12px;
+	color: #727171;
+	text-align: center;
+}
+.three-bottom span{
+	color: #b81c22;
+}
+.serve-three, .serve-bottom .last{
+	float: left;
+	border-right: none;
+}
+.serve-bottom{
+	width: 1118px;
+	height: 34px;
+	background: #f8f8f8;
+	margin: 0 auto;
+/* 	padding:0 68px 0 65px;  */
+	text-align: center;
+	margin-top: 26px;
+	padding-top: 23px;
+}
+.serve-bottom li{
+    width: 178px;
+    height: 26px;
+    border-right: 1px solid #e0e0e1;
+    float: left;
+    font-size: 12px;    
+}
+.serve-bottom li a{
+	color: #323232;
+}
+.serve-bottom .three{
+	width: 213px;
+	height: 26px;
+}
+/* 服务结束 */
+.xian{
+	width: 1200px;
+	height: 1px;
+	background: #3e3a39;
+	margin: 0 auto 17px;
+}
+/* 底部开始*/
+.footer{
+	width: 1200px;
+	height: 161px;
+	margin: 0 auto; 
+}
+.footer-one{
+	width: 843px;
+	height: 14px;
+	font-size: 12px;
+	color: #625E5E;
+	margin: 0 auto 14px;
+}
+.footer-two{
+	width: 168px;
+	height: 12px;
+	font-size: 12px;
+	color: #625E5E;
+	margin: 0 auto 36px;
+}
+.footer-three{
+	width: 728px;
+	height: 70px;
+	margin: 0 auto;
+}
+.three-one{
+	display: block;
+	width: 112px;
+	height: 40px;
+	float: left;
+	background: pink;
+	background: url('../img/spritesbgtop.png') no-repeat 0 -582px;
+	margin-right: 21px;
+}
+.three-two{
+	display: block;
+	width: 156px;
+	height: 45px;
+	float: left;
+	background: pink;
+	background: url('../img/spritesbgtop.png') no-repeat 0 -629px;
+	margin-right: 20px;
+}
+.three-three{
+	display: block;
+	width: 96px;
+	height: 41px;
+	float: left;
+	background: pink;
+	background: url('../img/spritesbgtop.png') no-repeat 0 -674px;
+	margin-right: 20px;
+}
+.three-four{
+	display: block;
+	width: 97px;
+	height: 42px;
+	float: left;
+	background: pink;
+	background: url('../img/spritesbgtop.png') no-repeat -97px -674px;
+	margin-right: 23px;
+}
+.three-five{
+	display: block;
+	width: 42px;
+	height: 42px;
+	float: left;
+	border-radius: 50%;
+	background: url('../img/spritesbgtop.png') no-repeat -200px -675px;
+	margin-right: 20px;
+}
+.three-six{
+	display: block;
+	width: 120px;
+	height: 39px;
+	float: left;
+	background: url('../img/kexin_brand_for_others.png') no-repeat center center;
+	background-size: 120px 39px;
+}
+/* 底部结束 */
