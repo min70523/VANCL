@@ -236,14 +236,12 @@
 .banner{
 	width: 1200px;
 	height: 535px;
-	background: red;
 	margin: 0 auto;
 	position: relative;
 }
 .img-list{
 	width: 1200px;
 	height: 535px;
-	background: yellow;
 	position: relative;
 }
 .img-list a{
@@ -433,7 +431,6 @@
 .center-top-top{
 	width: 100%;
 	height: 180px;
-	background: red;
 }
 .a2{
 	display: block;
@@ -472,7 +469,6 @@
 .center-bottom-top{
 	width: 100%;
 	height: 180px;
-	background: red;
 }
 .a2{
 	display: block;
@@ -697,7 +693,6 @@
 	width: 112px;
 	height: 40px;
 	float: left;
-	background: pink;
 	background: url('../img/spritesbgtop.png') no-repeat 0 -582px;
 	margin-right: 21px;
 }
@@ -706,7 +701,6 @@
 	width: 156px;
 	height: 45px;
 	float: left;
-	background: pink;
 	background: url('../img/spritesbgtop.png') no-repeat 0 -629px;
 	margin-right: 20px;
 }
@@ -715,7 +709,6 @@
 	width: 96px;
 	height: 41px;
 	float: left;
-	background: pink;
 	background: url('../img/spritesbgtop.png') no-repeat 0 -674px;
 	margin-right: 20px;
 }
@@ -724,7 +717,6 @@
 	width: 97px;
 	height: 42px;
 	float: left;
-	background: pink;
 	background: url('../img/spritesbgtop.png') no-repeat -97px -674px;
 	margin-right: 23px;
 }
